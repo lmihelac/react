@@ -4,10 +4,12 @@ import "./Expenses.css";
 import ExpensesFilter from "../ExpenseFilter/ExpensesFIlter";
 
 const Expenses = (props) => {
+  const filterChangeHandler = () => {};
+
   return (
     <div>
-      <ExpensesFilter />
       <Card className="expenses">
+        <ExpensesFilter onChangeFilter={filterChangeHandler} />
         <ExpenseItem
           title={props.items[0].title}
           amount={props.items[0].amount}
