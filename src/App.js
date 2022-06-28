@@ -35,6 +35,12 @@ const App = () => {
       amount: 5250,
       date: new Date(2021, 7, 13),
     },
+    {
+      id: "e7",
+      title: "MacBook Pro",
+      amount: 1099,
+      date: new Date(2021, 9, 22),
+    },
   ];
 
   const addExpenseHandler = (expense) => {
