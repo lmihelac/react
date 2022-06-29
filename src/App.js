@@ -41,6 +41,12 @@ const App = () => {
       amount: 1099,
       date: new Date(2021, 9, 22),
     },
+    {
+      id: "e7",
+      title: "Solidworks software",
+      amount: 400,
+      date: new Date(2021, 11, 29),
+    },
   ];
 
   const addExpenseHandler = (expense) => {
