@@ -47,6 +47,12 @@ const App = () => {
       amount: 400,
       date: new Date(2021, 11, 29),
     },
+    {
+      id: "e8",
+      title: "Autocad licence",
+      amount: 300,
+      date: new Date(2021, 11, 29),
+    },
   ];
 
   const addExpenseHandler = (expense) => {
