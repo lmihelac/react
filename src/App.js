@@ -53,6 +53,12 @@ const App = () => {
       amount: 300,
       date: new Date(2021, 11, 29),
     },
+    {
+      id: "e9",
+      title: "Trip to France",
+      amount: 2889,
+      date: new Date(2021, 12, 6),
+    },
   ];
 
   const addExpenseHandler = (expense) => {
