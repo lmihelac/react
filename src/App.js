@@ -59,6 +59,12 @@ const App = () => {
       amount: 2889,
       date: new Date(2021, 12, 6),
     },
+    {
+      id: "e10",
+      title: "Udemy Sub",
+      amount: 99,
+      date: new Date(2021, 12, 7),
+    },
   ];
 
   const addExpenseHandler = (expense) => {
