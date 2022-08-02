@@ -30,6 +30,11 @@ const Expenses = (props) => {
           amount={props.items[3].amount}
           date={props.items[3].date}
         />
+        <ExpenseItem
+          title={props.items[3].title}
+          amount={props.items[3].amount}
+          date={props.items[3].date}
+        />
       </Card>
     </div>
   );
